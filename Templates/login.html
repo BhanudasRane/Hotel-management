@@ -1,0 +1,64 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Instagram</title>
+        <link rel="stylesheet" href={% static 'css/style.css' %}>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+<body>
+    <div class="whole"> 
+           <h1 id=headd>Instagram</h1>
+
+<form action="login" method="post">
+    {% csrf_token %}   
+    <div id="username">
+        <input type="text" id="box1" name="username" required placeholder="Username">
+    </div>
+        <div id="pass">
+            <input type="password" name="password" placeholder="Password" id="box1">
+        </div>
+
+        
+    <div class="login">
+        <input type="submit" id="log">
+            
+     </div>
+</form>
+     <section class=or>
+        <hr id="line">
+        <p id="or1"><span>OR</span></p>
+        <hr id="line1">
+    </section>
+
+
+    <div class="facebook">
+        <p id="face" onclick="myFunction()">
+            <a id=face1 href="https://www.facebook.com/">Log in with facebook</a>
+        </p>
+    </div>
+
+    <div id=forgot >
+
+        <!-- <a href="#">Forgot Password</a>
+        -->
+        <a href="{% url 'password_reset' %}">Forgot Password</a>
+   
+    </div>
+ </div>
+
+    <div class="base">
+        <p id="footer">Don't Have an Account?
+            <a href="/accounts/register">SignUp</a>
+        </p>
+    </div>
+    <div>
+        {% for message in messages %}
+        <h3>
+            {{message}}
+        </h3>
+        {% endfor %}
+    </div>
+</body>
+</html>

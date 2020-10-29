@@ -1,0 +1,540 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:aliceblue; 
+
+}
+#headd{
+    font-style: Comic Sans;
+}
+
+.whole{
+    margin-top: 10px;
+    width: 350px;
+    height: 542px;
+    border: 2px solid black;
+   /* background-color: rgb(86, 63, 109); */
+   background-color: #ffffff; 
+   margin-left: 450px;
+
+}
+
+h1{
+    margin: 20px;
+padding-top: 20px;
+padding-bottom: 0px;    
+  font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: center;
+}
+#para{
+        font-size: 17px;
+    margin-left: 60px;
+
+}
+#para2{
+   margin-left: 100px;
+
+}
+.facebook{
+    padding-top: 10px;
+    
+}
+#face{
+    width: 250px;
+    height:20px;
+    cursor: pointer;
+    font-weight: bold;
+  
+    margin-left: 50px;
+    text-align: center;
+    color: whitesmoke;
+    
+    background-color: rgb(13, 13, 243);
+    
+    
+  
+}
+#face1{
+    color: white;
+}
+
+.or{
+    
+    margin-left: 50px;
+}
+#line{
+    width: 100px;
+    border: 2px solid black ;
+    margin: 20px 10px 0 0;
+     float: left;
+    
+}
+#or1{
+    float: left;
+    margin-top: 15px;
+    margin-left: 5px;
+    
+    
+}
+#line1{
+    width: 100px;
+    margin-top: 20px;
+    border: 2px solid black ;
+    margin: 20px 0 0 10px;
+     float: left;
+    
+}
+
+#email{
+
+    
+    box-sizing: border-box;
+    
+    cursor: pointer;
+    font-weight: 600px;
+    margin: 0px 50px 0 50px;
+   /* padding: 20px; */
+    /* color:red; */
+     margin-top: 50px; 
+     
+    
+    /* border: 0px solid #73AD21;     */
+    
+}
+
+#full_name{
+    box-sizing: border-box;
+    
+    cursor: pointer;
+    font-weight: 600px;
+    margin: 0px 50px 0 50px;
+    margin-top: 25px; 
+     
+}
+
+
+#username{
+    box-sizing: border-box;
+    
+    cursor: pointer;
+    font-weight: 600px;
+    margin: 0px 50px 0 50px;
+   
+     margin-top: 25px; 
+    
+}
+#box1{
+    width: 250px;
+}
+#pass{
+    box-sizing: border-box;
+    
+    cursor: pointer;
+    font-weight: 600px;
+    margin: 0px 50px 0 50px;
+   
+     margin-top: 25px; 
+    
+}
+.signup{
+       padding-top: 10px;
+        
+    }
+#sign{
+        width: 250px;
+        height:20px;
+        cursor: pointer;
+        font-weight: bold;
+        margin-left: 50px;
+        text-align: center;
+        color:white;
+        margin-top: 30px;
+        background-color: rgb(44, 44, 165);
+        border: 0px solid #73AD21;    
+        
+      
+    }
+#para3{
+    font-size: 17px;
+    margin-left: 50px;
+    margin-top: 15px;
+
+}
+#para4{
+   margin-left: 75px;
+
+}
+.base{
+    width: 350px;
+    height: 70px;
+    margin-top: 20px;
+    border: 2px solid black;
+    background-color:white;
+    margin-left: 450px;
+}
+
+#footer{
+    text-align: center;
+    padding: 25px;
+}
+
+@media only screen and (max-width:349px) and (min-width:293px)
+{
+    .whole{
+    width: 300px;
+    margin: 0px;
+    height: 542px;
+   }
+
+   .base{
+    width: 300px;
+    height: 70px;
+    margin:0px;
+   }
+   #para{
+       font-size: 17px;
+   margin-left: 35px;
+   }
+   #para2{
+       font-size: 17px;
+        margin-left: 80px;
+   }
+   
+   #face{
+       width: 230px;
+       height:20px;
+       margin-left: 35px;
+   }
+   .or{
+       margin-left: 25px;
+   }
+   #line{
+       width: 100px;
+        margin: 20px 6px 0 0;
+   }
+   
+   #email{
+       margin: 0px 50px 0 20px;
+        margin-top: 50px;  
+   }
+   
+   #full_name{
+      margin: 0px 50px 0 20px;
+       margin-top: 25px; 
+        
+   }
+   #username{
+        margin: 0px 50px 0 20px;
+        margin-top: 25px; 
+   }
+   #box1{
+       width: 250px;
+   }
+   #pass{
+       margin: 0px 50px 0 20px;
+        margin-top: 25px; 
+   }
+   
+   #sign{
+       margin-left: 20px;
+   }
+   #para3{
+      
+       margin-left: 22px;
+       margin-top: 15px;
+   
+   }
+   #para4{
+      margin-left: 45px;
+   
+   } }
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 479px) and (min-width:350px)
+{
+    .whole, .base{
+    width: 300px;
+    height: 542px;
+    margin-left: 50px;
+   }
+
+   .base{
+    width: 300px;
+    height: 70px;
+    margin-left: 50px;
+   }
+   #para{
+       font-size: 17px;
+   margin-left: 35px;
+   }
+   #para2{
+       font-size: 17px;
+        margin-left: 80px;
+   }
+   
+   #face{
+       width: 230px;
+       height:20px;
+       margin-left: 35px;
+   }
+   .or{
+       margin-left: 25px;
+   }
+   #line{
+       width: 100px;
+        margin: 20px 6px 0 0;
+   }
+   
+   #email{
+       margin: 0px 50px 0 20px;
+        margin-top: 50px;  
+   }
+   
+   #full_name{
+      margin: 0px 50px 0 20px;
+       margin-top: 25px; 
+        
+   }
+   #username{
+        margin: 0px 50px 0 20px;
+        margin-top: 25px; 
+   }
+   #box1{
+       width: 250px;
+   }
+   #pass{
+       margin: 0px 50px 0 20px;
+        margin-top: 25px; 
+   }
+   
+   #sign{
+       margin-left: 20px;
+   }
+   #para3{
+      
+       margin-left: 22px;
+       margin-top: 15px;
+   
+   }
+   #para4{
+      margin-left: 45px;
+   
+   } }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 599px) and (min-width:480px){
+    .whole{
+        width: 300px;
+        height: 542px;
+        margin-left: 100px;
+       
+    } 
+
+    .base{
+        width: 300px;
+        height: 70px;
+        margin-left: 100px;
+       }
+       #para{
+           font-size: 17px;
+       margin-left: 35px;
+       }
+       #para2{
+           font-size: 17px;
+            margin-left: 80px;
+       }
+       
+       #face{
+           width: 230px;
+           height:20px;
+           margin-left: 35px;
+       }
+       .or{
+           margin-left: 25px;
+       }
+       #line{
+           width: 100px;
+            margin: 20px 6px 0 0;
+       }
+       
+       #email{
+           margin: 0px 50px 0 20px;
+            margin-top: 50px;  
+       }
+       
+       #full_name{
+          margin: 0px 50px 0 20px;
+           margin-top: 25px; 
+            
+       }
+       #username{
+            margin: 0px 50px 0 20px;
+            margin-top: 25px; 
+       }
+       #box1{
+           width: 250px;
+       }
+       #pass{
+           margin: 0px 50px 0 20px;
+            margin-top: 25px; 
+       }
+       
+       #sign{
+           margin-left: 20px;
+       }
+       #para3{
+          
+           margin-left: 22px;
+           margin-top: 15px;
+       
+       }
+       #para4{
+          margin-left: 45px;
+       
+       } 
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 767px) and (min-width: 600px) {
+
+    .whole, .base{
+        width: 300px;
+        height: 542px;
+        margin-left: 200px;
+       }
+       .base{
+        width: 300px;
+        height: 70px;
+        margin-left: 200px;
+       }
+       #para{
+           font-size: 17px;
+       margin-left: 35px;
+       }
+       #para2{
+           font-size: 17px;
+            margin-left: 80px;
+       }
+       
+       #face{
+           width: 230px;
+           height:20px;
+           margin-left: 35px;
+       }
+       .or{
+           margin-left: 25px;
+       }
+       #line{
+           width: 100px;
+            margin: 20px 6px 0 0;
+       }
+       
+       #email{
+           margin: 0px 50px 0 20px;
+            margin-top: 50px;  
+       }
+       
+       #full_name{
+          margin: 0px 50px 0 20px;
+           margin-top: 25px; 
+            
+       }
+       #username{
+            margin: 0px 50px 0 20px;
+            margin-top: 25px; 
+       }
+       #box1{
+           width: 250px;
+       }
+       #pass{
+           margin: 0px 50px 0 20px;
+            margin-top: 25px; 
+       }
+       
+       #sign{
+           margin-left: 20px;
+       }
+       #para3{
+          
+           margin-left: 22px;
+           margin-top: 15px;
+       
+       }
+       #para4{
+          margin-left: 45px;
+       
+       } 
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 991px) and (min-width:768px)  {
+    .whole, .base{
+     width: 300px;
+     height: 542px;
+     margin-left: 300px;
+    }
+    .base{
+        width: 300px;
+        height: 70px;
+        margin-left: 300px;
+       }
+    #para{
+        font-size: 17px;
+    margin-left: 35px;
+    }
+    #para2{
+        font-size: 17px;
+         margin-left: 80px;
+    }
+    #face{
+        width: 230px;
+        height:20px;
+        margin-left: 35px;
+    }
+    .or{
+        margin-left: 25px;
+    }
+    #line{
+        width: 100px;
+         margin: 20px 6px 0 0;
+    }
+    #email{
+        margin: 0px 50px 0 20px;
+         margin-top: 50px;  
+    }
+    #full_name{
+       margin: 0px 50px 0 20px;
+        margin-top: 25px; 
+         
+    }
+    #username{
+         margin: 0px 50px 0 20px;
+         margin-top: 25px; 
+    }
+    #box1{
+        width: 250px;
+    }
+    #pass{
+        margin: 0px 50px 0 20px;
+         margin-top: 25px; 
+    }
+    #sign{
+        margin-left: 20px;
+    }
+    #para3{
+       
+        margin-left: 22px;
+        margin-top: 15px;
+    
+    }
+    #para4{
+       margin-left: 45px;
+    
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media (min-width: 1200px) {}
